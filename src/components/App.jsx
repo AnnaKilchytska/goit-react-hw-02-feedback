@@ -33,6 +33,7 @@ class App extends Component {
       <div>
         <Section title="Please, leave feedback">
           <FeedbackOptions
+            options={Object.keys(this.state)}
             onLeaveFeedback={this.handleButtonClick}
           ></FeedbackOptions>
         </Section>

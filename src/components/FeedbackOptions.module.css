@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.feedbackOptions {
+  text-align: center;
+}
+
 .feedbackBtn {
   padding: 5px 10px;
   outline: none;
