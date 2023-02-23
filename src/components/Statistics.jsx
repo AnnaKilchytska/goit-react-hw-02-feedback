@@ -29,14 +29,12 @@ class Statistics extends Component {
           Total: <span className={css.statsData}>{this.props.total}</span>
         </p>
 
-        {this.props.total !== 0 && (
-          <p>
-            Positive feedback:{' '}
-            <span className={css.statsData}>
-              {this.props.positivePercentage}%
-            </span>
-          </p>
-        )}
+        <p>
+          Positive feedback:
+          <span className={css.statsData}>
+            {this.props.positivePercentage}%
+          </span>
+        </p>
       </div>
     );
   }
