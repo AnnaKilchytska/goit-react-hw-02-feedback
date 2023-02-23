@@ -24,5 +24,6 @@
 }
 
 .feedbackBtn:hover {
-  background-color: #929293;
+  background-color: #4242ef;
+  color: #fff;
 }

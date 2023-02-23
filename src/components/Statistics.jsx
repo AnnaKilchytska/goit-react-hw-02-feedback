@@ -4,6 +4,14 @@ import React, { Component } from 'react';
 import css from './Statistics.module.css';
 
 class Statistics extends Component {
+  static propTypes = {
+    good: PropTypes.number.isRequired,
+    neutral: PropTypes.number.isRequired,
+    bad: PropTypes.number.isRequired,
+    positivePercentage: PropTypes.number.isRequired,
+    total: PropTypes.number.isRequired,
+  };
+
   render() {
     return (
       <div>
